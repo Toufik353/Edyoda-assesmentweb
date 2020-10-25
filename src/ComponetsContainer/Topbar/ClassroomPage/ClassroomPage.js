@@ -25,7 +25,7 @@ class ClassroomPage extends React.Component{
             <div className={classes.ClassroomCardWrap}>
             <Link to="/ProgramDetails">
               <img className={classes.Thumbnail} src={item.thumbnail} />
-          <h4 className={classes.Title}>{item.title}</h4>
+              <h4 className={classes.Title}>{item.title}</h4>
               <h4 className={classes.units}>{item.units}</h4>
               </Link>
           </div>

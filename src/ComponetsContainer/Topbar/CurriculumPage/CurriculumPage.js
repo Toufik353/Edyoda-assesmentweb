@@ -31,7 +31,8 @@ class CurriculumPage extends React.Component{
         }
     }
 
-    render(){return(
+    render(){
+        return(
         <div className={classes.CurriculumPageContainer}>
             <div className={classes.CurriculumPageContainerBtn}>
             <button className={classes.CurriculumPageContainerBtnColor} onClick={this.hendelclickUnit}>Unit</button>
